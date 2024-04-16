@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/css.css">
+    <link rel="icon" type="image/x-icon" href="/imagenes/favicon.ico">
+    <title>Registro de Usuario</title>
+</head>
+<body>
+    <header>
+        <img src="/imagenes/logo 4.jpg" alt="head=15, width=15"><h1>Compartiendo Momentos</h1>
+        <h2>Registro</h2>
+        <nav> <!--- Agregar enlaces a las diferentes secciones de la web -->
+            <!--- Direcciones de archivos Relativos SI SE ROMPE-->
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./acercaDe2.html">A cerca de</a></li>
+                <li><a href="./contacto2.html">Contacto</a></li>
+                <li><a href="./preguntas_frecuentes.html">Preguntas Frecuentes</a></li>
+                <li><a href="./usuario.html">Usuarios</a></li>
+                <li><a href="./formulario/formulario.html">formulario</a></li>
+                <li><a href="./cajas2.html">cajas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<h2>Registro de Usuario</h2>
+
+<form action="procesar_registro.php" method="POST">
+    <label for="usuario">Usuario:</label>
+    <input type="text" id="usuario" name="usuario" required><br><br>
+    
+    <label for="contraseña">Contraseña:</label>
+    <input type="password" id="contraseña" name="contraseña" required><br><br>
+    
+    <input type="submit" value="Registrar">
+</form>
+
+</body>
+</html>

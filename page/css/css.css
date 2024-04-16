@@ -1,0 +1,150 @@
+* { /*Universal*/
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{ /*Selector universal*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: #f85d04;
+}
+
+.contenedorPrincipal {/*Selector de clase*/
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {/*Selector de etiqueta o tipo*/
+    background-color: #020e6b;
+    width: 100%;
+    height: 80px;
+}
+header nav ul li {
+    list-style-type: none;
+    float: left;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+    color: rgb(238, 10, 10);
+}
+header nav ul li a:hover {
+    background-color: rgb(231, 18, 18);
+    color: rgb(14, 14, 203);
+}
+
+/*<!--- #designer{Selector de identificadores o id --->
+
+}*/
+
+.menu{
+    font-size:x-large;
+}
+
+main{
+    clear: both;
+    background-color: rgb(13, 9, 238);
+    width: 70%;
+    float: left;
+    font-size: 24px;
+}
+ #designer img{
+    max-width: 20%;
+    
+}
+
+main section{
+    padding: 10%;
+}
+
+main section p {
+    text-align: justify;
+    margin-bottom: 6px;
+    line-height: 1.5em;
+}
+
+aside{
+    width: 10%;
+    float: right;
+    background-color: #0d0470;
+    padding: 12%;
+    font-size: 15px;
+}
+aside ul li {
+    text-decoration: none;
+    color: black;
+    list-style-type: none;
+    margin-bottom: 6px;
+    border-bottom: 1px solid #000
+}
+
+aside ul li a:hover {
+    color: #ba3c7f;
+    
+}
+
+aside h2 {
+    color: #000;
+    margin-bottom: 5;
+}
+footer section{
+    text-decoration: none;
+    padding: 15px 20px;
+    display: inline-block;
+    color: rgb(242, 242, 247);
+}
+#caja1, #caja2 {
+    display: block;
+    width: 250px;
+    height: 250px;
+    background-color: aqua;
+    border: 10px solid red;
+    margin: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    float: left;
+    
+}
+
+.caja p {
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 230px; 
+    padding: 20px;
+}
+
+.clearfix {
+    float: none;
+    clear: both;    
+}
+
+.bordes {
+    /*border-top: 5px solid red;
+    border-right: 10px dotted blue;
+    border-bottom: 5px double green;
+    border-left: 10px dashed violet;
+    */border: 5px solid rgb(46, 10, 155);
+    border-top-left-radius: 20px;
+
+}
+
+/* posicionamiento */
+.contenidoP {
+    width: 62%;
+    float: left;
+}
+
+#lateral {
+    float: right;
+    width: 34%;
+    border: 1px solid rgb(46, 10, 155);
+    text-align: center;
+    min-height: 500px;
+    max-height: 600px;
+    overflow: scroll;
+}
+
